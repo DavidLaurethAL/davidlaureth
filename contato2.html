@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pagina de Contato</h1>
+    <a href="index.html">Voltar</a>
+    <hr>
+    <p>
+        <strong>Nome</strong>:David Luciano <br>
+        <strong>E-mail</strong>:david.silva30@aluno.senai.br
+    </p>
+    <form action="mailto:david.silva30@aluno.senai.br" method="post">
+        <label for="nome"> Digite seu nome:</label> <br>
+        <input type="text" id="nome" placeholder="Exemplo:Joao" required min="4" max="16" > <br>
+
+        <label for="email">Digite seu E-mail</label> <br>
+        <input type="email" id="email" placeholder="Exemplo:Email@email.com"required> <br>
+
+        <label for="mensagem">Digite sua mensagem</label> <br>
+        <textarea id="mensagem" cols="21" rows="5"></textarea> <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
